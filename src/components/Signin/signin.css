@@ -1,0 +1,13 @@
+h3 {
+  font-size: 2rem;
+  color: #3f3d56;
+  margin-bottom: 1rem;
+  margin-left: -3rem;
+  font-weight: 500;
+}
+
+.line {
+  width: 10rem;
+  height: 0.2rem;
+  background-color: #7879f1;
+}
