@@ -6,6 +6,7 @@ import Button from "../Button/button";
 import SignIn from "../Signin/signin";
 import Title from "../Title/title";
 import Or from "../or/or";
+import GoogleLogin from "../GoogleLogin/googleLogin";
 
 export const Login = () => {
   return (
@@ -23,7 +24,10 @@ export const Login = () => {
         <Input type="password" text="Password" />
         <Button />
       </div>
-      <Or />
+      <div className="footer">
+        <Or />
+        <GoogleLogin />
+      </div>
     </div>
   );
 };
