@@ -1,4 +1,4 @@
-button {
+.one {
   width: 11rem;
   height: 2.7rem;
 
@@ -6,6 +6,21 @@ button {
   border: none;
   border-radius: 20px;
   box-shadow: 4px 4px 14px 0px #8b8cfb;
+  margin-top: 2rem;
+
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.two {
+  width: 11rem;
+  height: 2.7rem;
+
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 4px 4px 14px 0px #04041d;
   margin-top: 2rem;
 
   font-size: 1rem;

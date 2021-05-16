@@ -6,7 +6,7 @@ import Button from "../Button/button";
 import SignIn from "../Signin/signin";
 import Title from "../Title/title";
 import Or from "../or/or";
-import GoogleLogin from "../GoogleLogin/googleLogin";
+import GoogleLogin from "../Google/googleLogin";
 
 export const Login = () => {
   return (
@@ -22,7 +22,7 @@ export const Login = () => {
 
         <Input type="email" text="Email" />
         <Input type="password" text="Password" />
-        <Button />
+        <Button name="Login" />
       </div>
       <div className="footer">
         <Or />

@@ -1,0 +1,35 @@
+.google-login {
+  width: 100%;
+  display: flex;
+
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+.Google-logo {
+  opacity: initial;
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+.footer-text {
+  font-size: 1rem;
+  line-height: 25px;
+  font-weight: 430;
+
+  text-decoration: none;
+
+  color: #7879f1;
+}
+
+.footer-text:hover {
+  text-decoration: underline;
+  color: #4747b3;
+}
